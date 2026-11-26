@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mítica · Bestiário do folclore brasileiro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap">
+  <script>try{const tema=localStorage.getItem('mitica:tema');if(tema==='light'||tema==='dark')document.documentElement.dataset.theme=tema;}catch{}</script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#/">✦ Mítica</a>
+    <input id="busca" type="search" placeholder="Buscar por nome ou região…" aria-label="Buscar por nome ou região">
+    <nav aria-label="Principal"><a href="#/">Início</a><a href="#/favoritos">Favoritos</a></nav>
+    <button class="tema-toggle" id="tema-toggle" type="button" aria-label="Ativar modo claro" title="Ativar modo claro"><span aria-hidden="true">☀</span></button>
+  </header>
+  <main id="app"></main>
+  <footer class="rodape">Feito por: Marina, Naylanne e Jullya · Projeto Final Web 1</footer>
+
+  <!-- Modelos (templates): o JS clona e preenche com textContent -->
+  <template id="modelo-lista">
+    <section class="hero">
+      <span class="sel" id="total"></span>
+      <h1>Mítica</h1>
+      <p>Bestiário do folclore brasileiro: encantados, assombrações e guardiões de cada canto do Brasil.</p>
+    </section>
+    <div class="chips" id="chips" role="group" aria-label="Filtrar por região"></div>
+    <ul class="grade" id="lista"></ul>
+  </template>
+
+  <template id="modelo-card">
+    <li>
+      <article class="card">
+        <div class="capa"><span class="emoji"></span><img alt="" loading="lazy"></div>
+        <div><h3><a href="#/"></a></h3><span class="tag"></span></div>
+      </article>
+    </li>
+  </template>
+
+  <template id="modelo-detalhe">
+    <a class="voltar" href="#/">← Voltar para a lista</a>
+    <article class="det">
+      <div class="capa"><span class="emoji"></span><img alt=""></div>
+      <div>
+        <h1></h1>
+        <p class="meta"></p>
+        <button class="btn" type="button"></button>
+        <h2>Sinopse</h2>
+        <p class="sinopse"></p>
+        <h2>História completa</h2>
+        <div class="historia"></div>
+        <h2>Histórias parecidas</h2>
+        <ul class="grade parecidas"></ul>
+      </div>
+    </article>
+  </template>
+
+  <template id="modelo-favoritos">
+    <h1>Meus favoritos</h1>
+    <ul class="lista-fav" id="lista-fav"></ul>
+    <p class="nota">Lista guardada no navegador; continua lá ao reabrir o site.</p>
+  </template>
+
+  <template id="modelo-favorito">
+    <li class="fav">
+      <a href="#/"></a>
+      <button class="rem" type="button">remover</button>
+    </li>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,921 @@
+{
+  "personagens": [
+    {
+      "id": 1,
+      "nome": "Curupira",
+      "regiao": "Norte",
+      "emoji": "🔥",
+      "cor": "#2f6b3a",
+      "tipo": "Protetor da floresta",
+      "origem": "Tupi",
+      "sinopse": "Menino de cabelos de fogo e pés virados para trás que protege as matas.",
+      "historia": "O Curupira vive nas florestas e defende animais e árvores de caçadores e madeireiros. Seus pés virados para trás deixam pegadas que levam as pessoas na direção errada, e quem se perde nunca encontra o caminho de volta. Dizem que ele assobia para confundir os invasores. Quem respeita a natureza passa em paz; quem a destrói fica rodando em círculos pela mata. Uma tradição manda deixar fumo de presente para agradá-lo.",
+      "parecidos": [
+        5,
+        4,
+        14
+      ],
+      "semelhantes": [
+        5,
+        4,
+        11
+      ],
+      "imagem": "img/curupira.svg"
+    },
+    {
+      "id": 2,
+      "nome": "Boto-cor-de-rosa",
+      "regiao": "Norte",
+      "emoji": "🐬",
+      "cor": "#c4577a",
+      "tipo": "Encantado dos rios",
+      "origem": "Amazônica",
+      "sinopse": "Boto que vira um rapaz elegante de chapéu e seduz moças nas festas.",
+      "historia": "Nas noites de festa junina, o boto sai do rio transformado em um rapaz bonito, sempre de chapéu para esconder o buraco no alto da cabeça. Ele dança, encanta as moças e some de madrugada, voltando ao rio. Muitas histórias explicam, assim, filhos de pai desconhecido na região. Por isso o povo ribeirinho costuma desconfiar de quem usa chapéu até dentro de casa.",
+      "parecidos": [
+        3,
+        13,
+        6
+      ],
+      "semelhantes": [
+        3,
+        13
+      ],
+      "imagem": "img/boto-cor-de-rosa.svg"
+    },
+    {
+      "id": 3,
+      "nome": "Iara",
+      "regiao": "Norte",
+      "emoji": "🧜‍♀️",
+      "cor": "#2a7f9e",
+      "tipo": "Mãe-d'água",
+      "origem": "Tupi",
+      "sinopse": "Sereia dos rios amazônicos que atrai pescadores com seu canto.",
+      "historia": "Iara era uma guerreira indígena muito bonita e invejada pelos irmãos, que tentaram matá-la. Ela se defendeu e os eliminou, e por isso foi jogada no rio como castigo. Os peixes a salvaram e a transformaram em sereia. Hoje ela canta nas águas para atrair homens, que a seguem e desaparecem no fundo do rio.",
+      "parecidos": [
+        2,
+        13,
+        4
+      ],
+      "semelhantes": [
+        2,
+        13
+      ],
+      "imagem": "img/iara.svg"
+    },
+    {
+      "id": 4,
+      "nome": "Mapinguari",
+      "regiao": "Norte",
+      "emoji": "👹",
+      "cor": "#6b4a2a",
+      "tipo": "Monstro da floresta",
+      "origem": "Amazônica",
+      "sinopse": "Gigante peludo de um olho só e boca na barriga, com cheiro terrível.",
+      "historia": "O Mapinguari é um gigante coberto de pelos, com um olho na testa e uma boca enorme na barriga. Seu grito assusta toda a mata e seu cheiro é insuportável. Ele costuma perseguir seringueiros e caçadores que entram fundo na floresta. A lenda diz que seu couro é tão duro que só o umbigo pode ser ferido.",
+      "parecidos": [
+        1,
+        12,
+        8
+      ],
+      "semelhantes": [
+        1,
+        5,
+        10
+      ],
+      "imagem": "img/mapinguari.svg"
+    },
+    {
+      "id": 5,
+      "nome": "Caipora",
+      "regiao": "Nordeste",
+      "emoji": "🐗",
+      "cor": "#8a5a1f",
+      "tipo": "Protetora da caça",
+      "origem": "Tupi",
+      "sinopse": "Menina indígena de pele escura que cavalga um porco-do-mato e protege os animais.",
+      "historia": "A Caipora anda pelas matas montada em um porco-do-mato, defendendo os bichos dos caçadores. Quem entra na floresta sem pedir licença fica perdido e volta de mãos vazias. Para agradá-la, os caçadores deixam fumo de corda e cachaça no tronco de uma árvore. A lenda ensina a caçar só o necessário.",
+      "parecidos": [
+        1,
+        6,
+        4
+      ],
+      "semelhantes": [
+        1,
+        11,
+        6
+      ],
+      "imagem": "img/caipora.svg"
+    },
+    {
+      "id": 6,
+      "nome": "Comadre Fulozinha",
+      "regiao": "Nordeste",
+      "emoji": "🌾",
+      "cor": "#9a6aa8",
+      "tipo": "Protetora das matas",
+      "origem": "Nordestina",
+      "sinopse": "Menina de cabelos longos que protege as matas e castiga quem as maltrata.",
+      "historia": "Fulozinha é uma menina de cabelos compridos que vive nas matas do Nordeste e cuida das plantas e dos animais. Nas sextas-feiras e nas noites de lua ela assobia para atrair crianças. Quem não deixa fumo para ela nas trilhas pode se perder. Também é contada como a alma de uma criança que morreu sem batismo.",
+      "parecidos": [
+        5,
+        1,
+        3
+      ],
+      "semelhantes": [
+        5,
+        1
+      ],
+      "imagem": "img/comadre-fulozinha.svg"
+    },
+    {
+      "id": 7,
+      "nome": "Saci-Pererê",
+      "regiao": "Sudeste",
+      "emoji": "🌪️",
+      "cor": "#b3342c",
+      "tipo": "Traquinas",
+      "origem": "Indígena e africana",
+      "sinopse": "Menino de uma perna só, gorro vermelho e cachimbo, que vive pregando peças.",
+      "historia": "O Saci tem uma perna só, usa um gorro vermelho mágico e fuma cachimbo. Aparece em redemoinhos de vento e adora fazer travessuras: esconde objetos, azeda o leite, derruba panelas e trança as crinas dos cavalos. Quem consegue roubar o gorro dele ganha um desejo realizado. Para capturá-lo, a tradição manda jogar uma peneira no meio do redemoinho.",
+      "parecidos": [
+        8,
+        5,
+        9
+      ],
+      "semelhantes": [
+        14,
+        8,
+        9
+      ],
+      "imagem": "img/saci-perere.svg"
+    },
+    {
+      "id": 8,
+      "nome": "Cuca",
+      "regiao": "Sudeste",
+      "emoji": "🐊",
+      "cor": "#3f7d4f",
+      "tipo": "Bruxa",
+      "origem": "Portuguesa e brasileira",
+      "sinopse": "Bruxa com cabeça de jacaré que leva crianças que não dormem.",
+      "historia": "A Cuca é uma bruxa velha com cabeça de jacaré e cabelos longos e amarelos. Ela é conhecida pela cantiga de ninar que avisa que a Cuca vem pegar crianças que não querem dormir. Esconde-se no escuro e na imaginação das crianças para convencê-las a obedecer. Nas histórias de Monteiro Lobato, ela aparece no Sítio do Picapau Amarelo.",
+      "parecidos": [
+        10,
+        11,
+        7
+      ],
+      "semelhantes": [
+        9,
+        10,
+        7
+      ],
+      "imagem": "img/cuca.svg"
+    },
+    {
+      "id": 9,
+      "nome": "Mula sem Cabeça",
+      "regiao": "Sudeste",
+      "emoji": "🐴",
+      "cor": "#c25a1c",
+      "tipo": "Assombração",
+      "origem": "Ibérica e brasileira",
+      "sinopse": "Mula que solta fogo pelo pescoço e galopa nas noites de quinta para sexta.",
+      "historia": "A lenda conta que uma mulher que se envolveu com um padre foi condenada a virar mula sem cabeça, soltando fogo pelo pescoço. Ela galopa nas noites de quinta para sexta-feira, assustando quem cruza seu caminho. Segundo a tradição, a maldição só acaba se alguém tirar o freio de ferro que ela carrega na boca, ou se ela for ferida até sair sangue.",
+      "parecidos": [
+        11,
+        10,
+        7
+      ],
+      "semelhantes": [
+        10,
+        8,
+        11
+      ],
+      "imagem": "img/mula-sem-cabeca.svg"
+    },
+    {
+      "id": 10,
+      "nome": "Lobisomem",
+      "regiao": "Sul",
+      "emoji": "🐺",
+      "cor": "#4a4a5e",
+      "tipo": "Criatura da noite",
+      "origem": "Europeia e brasileira",
+      "sinopse": "Homem que vira lobo nas noites de lua cheia, em especial de sexta-feira.",
+      "historia": "O sétimo filho homem de uma família, sem irmãs mulheres, é amaldiçoado a virar lobisomem. Nas noites de lua cheia ele se transforma e vaga pelas estradas, uivando e atacando animais. Na manhã seguinte, acorda pálido e cansado, sem lembrar de nada. A tradição popular diz que só o fim da maldição vem com um ferimento que faça sangrar o monstro.",
+      "parecidos": [
+        9,
+        8,
+        11
+      ],
+      "semelhantes": [
+        9,
+        8,
+        4
+      ],
+      "imagem": "img/lobisomem.svg"
+    },
+    {
+      "id": 11,
+      "nome": "Boitatá",
+      "regiao": "Sul",
+      "emoji": "🐍",
+      "cor": "#d9791c",
+      "tipo": "Serpente de fogo",
+      "origem": "Tupi",
+      "sinopse": "Cobra gigante de fogo que protege os campos contra incêndios.",
+      "historia": "Depois de uma grande noite que durou muito tempo, uma cobra saiu da toca e comeu só os olhos dos animais mortos. Os olhos acumularam tanta luz que ela virou uma serpente de fogo. Hoje o Boitatá vaga pelos campos e protege as matas, queimando quem incendeia a natureza. Quem o encontra pode ficar cego ou louco.",
+      "parecidos": [
+        1,
+        9,
+        4
+      ],
+      "semelhantes": [
+        1,
+        5,
+        9
+      ],
+      "imagem": "img/boitata.svg"
+    },
+    {
+      "id": 12,
+      "nome": "Negrinho do Pastoreio",
+      "regiao": "Sul",
+      "emoji": "🕯️",
+      "cor": "#7a4a2a",
+      "tipo": "Lenda religiosa",
+      "origem": "Gaúcha",
+      "sinopse": "Menino escravizado que ajuda quem perdeu algo, se pedirem com uma vela.",
+      "historia": "Um menino escravizado, pastor de cavalos de um fazendeiro cruel, perdeu um animal numa corrida e foi punido com chicotadas e jogado em um formigueiro. No dia seguinte, ele apareceu vivo, com Nossa Senhora ao lado, e os cavalos estavam todos de volta. Hoje se acredita que ele ajuda quem perdeu algo, bastando acender uma vela e pedir.",
+      "parecidos": [
+        7,
+        10,
+        6
+      ],
+      "semelhantes": [
+        9,
+        10,
+        6
+      ],
+      "imagem": "img/negrinho-do-pastoreio.svg"
+    },
+    {
+      "id": 13,
+      "nome": "Minhocão",
+      "regiao": "Centro-Oeste",
+      "emoji": "🪱",
+      "cor": "#5a3a28",
+      "tipo": "Monstro subterrâneo",
+      "origem": "Pantaneira",
+      "sinopse": "Minhoca gigante que causa desmoronamentos e engole barcos.",
+      "historia": "O Minhocão é uma minhoca monstruosa que habita rios e terras do Centro-Oeste. Quando se move, faz a terra tremer, abre buracos enormes e desvia o curso dos rios. Dizem que ele derruba casas e engole canoas inteiras com quem estiver dentro. Muitas ribanceiras e lagoas da região são explicadas pelas passagens do bicho.",
+      "parecidos": [
+        4,
+        3,
+        1
+      ],
+      "semelhantes": [
+        2,
+        3,
+        4
+      ],
+      "imagem": "img/minhocao.svg"
+    },
+    {
+      "id": 14,
+      "nome": "Pé-de-Garrafa",
+      "regiao": "Centro-Oeste",
+      "emoji": "🍾",
+      "cor": "#4a6a4a",
+      "tipo": "Monstro da mata",
+      "origem": "Goiana",
+      "sinopse": "Gigante peludo com pegadas redondas como fundos de garrafa que leva quem se perde.",
+      "historia": "Conhecido no interior de Goiás e do Cerrado, o Pé-de-Garrafa é um homem enorme e peludo com um pé só, que deixa marcas redondas como o fundo de uma garrafa. Quem segue as pegadas se perde na mata e pode nunca mais voltar. Ele aparece mais à noite e nas matas fechadas, e é contado para afastar crianças e viajantes dos lugares perigosos.",
+      "parecidos": [
+        4,
+        1,
+        13
+      ],
+      "semelhantes": [
+        4,
+        7,
+        1
+      ],
+      "imagem": "img/pe-de-garrafa.svg"
+    },
+    {
+      "id": 15,
+      "nome": "Cobra Grande",
+      "regiao": "Norte",
+      "emoji": "🐍",
+      "cor": "#1f9d6b",
+      "tipo": "Monstro das águas",
+      "origem": "Amazônia",
+      "sinopse": "Serpente gigante que dorme no fundo dos rios amazônicos.",
+      "historia": "Dizem que a Cobra Grande é uma serpente enorme que dorme no fundo dos rios da Amazônia. Quando se move, o rio treme, canoas viram e barrancos desabam.\n\nEm algumas versões ela toma a forma de um barco iluminado para atrair pescadores. Os ribeirinhos evitam fazer barulho nos lugares onde ela foi vista.",
+      "semelhantes": [
+        2,
+        13,
+        26
+      ],
+      "imagem": "img/cobra-grande.svg"
+    },
+    {
+      "id": 16,
+      "nome": "Matinta Perera",
+      "regiao": "Norte",
+      "emoji": "🦉",
+      "cor": "#1f9d6b",
+      "tipo": "Assombração-ave",
+      "origem": "Pará",
+      "sinopse": "Mulher que vira ave agourenta e assobia perto das casas à noite.",
+      "historia": "No Pará, conta-se que a Matinta Perera é uma pessoa que, à noite, se transforma em ave e assobia perto das casas.\n\nNa manhã seguinte ela aparece pedindo tabaco ou café. Quem promete e não cumpre atrai azar; quem dá, vive em paz.",
+      "semelhantes": [
+        24,
+        9,
+        21
+      ],
+      "imagem": "img/matinta-perera.svg"
+    },
+    {
+      "id": 17,
+      "nome": "Uirapuru",
+      "regiao": "Norte",
+      "emoji": "🐦",
+      "cor": "#1f9d6b",
+      "tipo": "Pássaro encantado",
+      "origem": "Amazônia",
+      "sinopse": "Pássaro cujo canto traz sorte no amor.",
+      "historia": "O uirapuru é um pequeno pássaro de canto tão bonito que os outros bichos silenciam para ouvir.\n\nA lenda diz que ele nasceu de um jovem apaixonado que pediu aos deuses para virar pássaro e cantar perto da amada. Quem o ouve e faz um pedido tem sorte no amor.",
+      "semelhantes": [
+        19,
+        18,
+        6
+      ],
+      "imagem": "img/uirapuru.svg"
+    },
+    {
+      "id": 18,
+      "nome": "Anhangá",
+      "regiao": "Norte",
+      "emoji": "🦌",
+      "cor": "#1f9d6b",
+      "tipo": "Espírito protetor",
+      "origem": "Tupi-guarani",
+      "sinopse": "Espírito que protege os animais e castiga caçadores.",
+      "historia": "Anhangá é um espírito da tradição tupi-guarani que protege a caça. Pode aparecer como um veado branco de olhos de fogo.\n\nQuem caça demais fica perdido, doente ou sem sorte. Por isso os caçadores aprendem a pegar só o necessário.",
+      "semelhantes": [
+        1,
+        5,
+        11
+      ],
+      "imagem": "img/anhanga.svg"
+    },
+    {
+      "id": 19,
+      "nome": "Naiá e a Vitória-régia",
+      "regiao": "Norte",
+      "emoji": "🪷",
+      "cor": "#1f9d6b",
+      "tipo": "Lenda das águas",
+      "origem": "Tupi",
+      "sinopse": "Jovem indígena que virou a flor vitória-régia.",
+      "historia": "Naiá era uma jovem que sonhava em ser levada pela Lua. Numa noite, viu o reflexo da Lua no lago e mergulhou para alcançá-la.\n\nA Lua, comovida, transformou Naiá numa planta de flor grande e perfumada, a vitória-régia, que abre à noite sobre as águas.",
+      "semelhantes": [
+        3,
+        17,
+        2
+      ],
+      "imagem": "img/naia-e-a-vitoria-regia.svg"
+    },
+    {
+      "id": 20,
+      "nome": "Cabeça-de-Cuia",
+      "regiao": "Nordeste",
+      "emoji": "🥣",
+      "cor": "#e8892b",
+      "tipo": "Assombração de rio",
+      "origem": "Piauí",
+      "sinopse": "Rapaz amaldiçoado que vive no rio Parnaíba.",
+      "historia": "Segundo a lenda piauiense, um rapaz foi amaldiçoado e passou a viver no rio Parnaíba com a cabeça parecida com uma cuia.\n\nDiz-se que a maldição só acaba se ele devorar sete mulheres chamadas Maria. Por isso o povo evita o rio à noite.",
+      "semelhantes": [
+        26,
+        2,
+        12
+      ],
+      "imagem": "img/cabeca-de-cuia.svg"
+    },
+    {
+      "id": 21,
+      "nome": "Papa-Figo",
+      "regiao": "Nordeste",
+      "emoji": "🎒",
+      "cor": "#e8892b",
+      "tipo": "Papão",
+      "origem": "Nordeste",
+      "sinopse": "Homem do saco que assusta crianças desobedientes.",
+      "historia": "Os mais velhos contam que o Papa-Figo é um homem de saco nas costas que procura crianças desobedientes.\n\nA história serviu por gerações para ensinar as crianças a não andar sozinhas na rua à noite.",
+      "semelhantes": [
+        23,
+        16,
+        8
+      ],
+      "imagem": "img/papa-figo.svg"
+    },
+    {
+      "id": 22,
+      "nome": "Alamoa",
+      "regiao": "Nordeste",
+      "emoji": "👻",
+      "cor": "#e8892b",
+      "tipo": "Fantasma",
+      "origem": "Fernando de Noronha",
+      "sinopse": "Mulher loira e misteriosa que aparece na ilha de Fernando de Noronha.",
+      "historia": "Em Fernando de Noronha, conta-se que a Alamoa é uma mulher loira, de pele muito branca, que aparece nas noites de luar.\n\nEla atrai os rapazes até as pedras da ilha e desaparece, deixando apenas o som do vento.",
+      "semelhantes": [
+        27,
+        3,
+        6
+      ],
+      "imagem": "img/alamoa.svg"
+    },
+    {
+      "id": 23,
+      "nome": "Quibungo",
+      "regiao": "Nordeste",
+      "emoji": "👹",
+      "cor": "#e8892b",
+      "tipo": "Monstro",
+      "origem": "Afro-brasileira",
+      "sinopse": "Monstro com um buraco nas costas que leva crianças.",
+      "historia": "O Quibungo é um monstro de origem africana muito presente na tradição baiana. Dizem que tem um grande buraco nas costas, onde guarda as crianças que captura.\n\nA lenda foi contada para que as crianças obedecessem aos pais.",
+      "semelhantes": [
+        21,
+        8,
+        16
+      ],
+      "imagem": "img/quibungo.svg"
+    },
+    {
+      "id": 24,
+      "nome": "Pisadeira",
+      "regiao": "Sudeste",
+      "emoji": "🕸️",
+      "cor": "#7a5af8",
+      "tipo": "Assombração noturna",
+      "origem": "Interior paulista",
+      "sinopse": "Velha de unhas longas que pisa no peito de quem dorme de barriga cheia.",
+      "historia": "Conta-se que a Pisadeira é uma velha magra, de unhas compridas, que sobe nos telhados à noite.\n\nEla pisa no peito de quem dorme de barriga cheia e de costas, deixando a pessoa sem conseguir se mexer.",
+      "semelhantes": [
+        16,
+        9,
+        27
+      ],
+      "imagem": "img/pisadeira.svg"
+    },
+    {
+      "id": 25,
+      "nome": "Mãe-de-Ouro",
+      "regiao": "Sudeste",
+      "emoji": "☄️",
+      "cor": "#7a5af8",
+      "tipo": "Luz encantada",
+      "origem": "Minas Gerais",
+      "sinopse": "Bola de fogo que cruza o céu e marca onde há ouro.",
+      "historia": "A Mãe-de-Ouro é uma bola de fogo que cruza o céu à noite e cai onde existe ouro escondido, numa tradição ligada à mineração em Minas Gerais.\n\nQuem tenta tirar o ouro sem respeito pode ser punido pela luz.",
+      "semelhantes": [
+        11,
+        4,
+        29
+      ],
+      "imagem": "img/mae-de-ouro.svg"
+    },
+    {
+      "id": 26,
+      "nome": "Negro d’Água",
+      "regiao": "Sudeste",
+      "emoji": "🌊",
+      "cor": "#7a5af8",
+      "tipo": "Ser das águas",
+      "origem": "Rio São Francisco",
+      "sinopse": "Ser do rio São Francisco que assusta pescadores.",
+      "historia": "Os barranqueiros do rio São Francisco contam que o Negro d’Água é um ser de pele escura e brilhante que vive no fundo do rio.\n\nEle vira canoas e puxa pescadores pelos pés. Para agradá-lo, jogam fumo na água.",
+      "semelhantes": [
+        15,
+        13,
+        20
+      ],
+      "imagem": "img/negro-dagua.svg"
+    },
+    {
+      "id": 27,
+      "nome": "Loira do Banheiro",
+      "regiao": "Sudeste",
+      "emoji": "🪞",
+      "cor": "#7a5af8",
+      "tipo": "Lenda urbana",
+      "origem": "Escolas",
+      "sinopse": "Fantasma de uma garota loira que assombra banheiros de escola.",
+      "historia": "É uma das lendas urbanas mais contadas nas escolas do Brasil. Diz-se que o fantasma de uma garota loira assombra o banheiro.\n\nSegundo a brincadeira, ela aparece quando alguém a chama diante do espelho. As versões mudam de escola para escola.",
+      "semelhantes": [
+        22,
+        24,
+        6
+      ],
+      "imagem": "img/loira-do-banheiro.svg"
+    },
+    {
+      "id": 28,
+      "nome": "Salamanca do Jarau",
+      "regiao": "Sul",
+      "emoji": "🦎",
+      "cor": "#2f7fd1",
+      "tipo": "Lagarto encantado",
+      "origem": "Rio Grande do Sul",
+      "sinopse": "Lagarto mágico que vira princesa e guarda um tesouro numa gruta.",
+      "historia": "Segundo a lenda gaúcha, no Cerro do Jarau vive um lagarto com uma pedra brilhante na cabeça, que se transforma em princesa.\n\nQuem enfrenta as provas da gruta pode ganhar tesouros, mas poucos conseguem sair. A história mistura tradição ibérica e indígena.",
+      "semelhantes": [
+        29,
+        25,
+        3
+      ],
+      "imagem": "img/salamanca-do-jarau.svg"
+    },
+    {
+      "id": 29,
+      "nome": "Teiniaguá",
+      "regiao": "Sul",
+      "emoji": "💎",
+      "cor": "#2f7fd1",
+      "tipo": "Lagarto encantado",
+      "origem": "Guarani",
+      "sinopse": "Lagarto de cabeça brilhante que guarda tesouros nos cerros gaúchos.",
+      "historia": "Teiniaguá é um lagarto de cabeça brilhante como uma joia, ligado às lendas dos cerros do sul do Brasil.\n\nDizem que guarda tesouros e que pode virar princesa. Quem tenta tomar sua pedra enfrenta perigos.",
+      "semelhantes": [
+        28,
+        25,
+        11
+      ],
+      "imagem": "img/teiniagua.svg"
+    },
+    {
+      "id": 30,
+      "nome": "Urutau",
+      "regiao": "Centro-Oeste",
+      "emoji": "🌙",
+      "cor": "#c9a227",
+      "tipo": "Ave encantada",
+      "origem": "Guarani",
+      "sinopse": "Ave de canto triste que seria uma jovem transformada em pássaro.",
+      "historia": "O urutau é uma ave noturna de canto longo e triste, que parece um lamento no escuro.\n\nA lenda guarani conta que ele é uma jovem transformada em pássaro depois de uma tragédia de amor, e por isso chora até hoje.",
+      "semelhantes": [
+        17,
+        6,
+        16
+      ],
+      "imagem": "img/urutau.svg"
+    },
+    {
+      "id": 31,
+      "nome": "Cobra Norato",
+      "regiao": "Norte",
+      "emoji": "🐍",
+      "cor": "#1f9d6b",
+      "tipo": "Serpente encantada",
+      "origem": "Pará (Marajó)",
+      "sinopse": "Cobra que vira um rapaz bonito e vai às festas das vilas.",
+      "historia": "Na tradição paraense, Norato é uma cobra encantada que, nas noites de festa, vira um rapaz bonito e dança nas vilas à beira do rio.\n\nContam que o encanto só se desfaz se alguém tiver coragem de ferir a cobra e libertar o rapaz. Até lá, ele volta ao rio antes do amanhecer.",
+      "semelhantes": [
+        15,
+        2,
+        26
+      ],
+      "imagem": "img/cobra-norato.svg"
+    },
+    {
+      "id": 32,
+      "nome": "Lenda do Guaraná",
+      "regiao": "Norte",
+      "emoji": "🍇",
+      "cor": "#1f9d6b",
+      "tipo": "Lenda de origem",
+      "origem": "Sateré-Mawé",
+      "sinopse": "Do olho de uma criança nasceu a planta do guaraná.",
+      "historia": "Para o povo Sateré-Mawé, o guaraná nasceu de uma criança muito amada, morta por uma serpente do mal.\n\nDo corpo dela, os pais plantaram os olhos, e dali nasceu a planta cujo fruto parece um olhar. Por isso o guaraná é visto como um presente sagrado.",
+      "semelhantes": [
+        33,
+        36,
+        17
+      ],
+      "imagem": "img/lenda-do-guarana.svg"
+    },
+    {
+      "id": 33,
+      "nome": "Lenda do Açaí",
+      "regiao": "Norte",
+      "emoji": "🫐",
+      "cor": "#1f9d6b",
+      "tipo": "Lenda de origem",
+      "origem": "Pará",
+      "sinopse": "Iaçã, a jovem que virou a palmeira do açaí.",
+      "historia": "Iaçã era filha de um cacique que, por causa da fome, mandou que as crianças da aldeia não vivessem. Triste, a jovem chorou até desaparecer.\n\nNo dia seguinte, o povo a viu transformada numa palmeira cheia de frutos escuros. Comeram e salvaram a aldeia. Açaí é Iaçã escrito ao contrário.",
+      "semelhantes": [
+        32,
+        36,
+        19
+      ],
+      "imagem": "img/lenda-do-acai.svg"
+    },
+    {
+      "id": 34,
+      "nome": "Boi-Bumbá",
+      "regiao": "Norte",
+      "emoji": "🐂",
+      "cor": "#1f9d6b",
+      "tipo": "Folguedo e lenda",
+      "origem": "Amazonas (Parintins)",
+      "sinopse": "O boi favorito do fazendeiro que morre e ressuscita.",
+      "historia": "Pai Francisco mata o boi favorito do patrão para realizar o desejo de sua esposa, Catirina, que está grávida.\n\nO fazendeiro descobre e manda procurar o culpado. No fim, o pajé reza e o boi ressuscita, e todos fazem festa. A história virou o grande espetáculo de Parintins.",
+      "semelhantes": [
+        43,
+        42,
+        11
+      ],
+      "imagem": "img/boi-bumba.svg"
+    },
+    {
+      "id": 35,
+      "nome": "Capelobo",
+      "regiao": "Norte",
+      "emoji": "🐗",
+      "cor": "#1f9d6b",
+      "tipo": "Criatura da mata",
+      "origem": "Pará e Maranhão",
+      "sinopse": "Criatura de focinho comprido que ataca animais na mata.",
+      "historia": "Dizem que o Capelobo tem corpo de homem e focinho comprido, como o de uma anta, e vive nas matas do Pará e do Maranhão.\n\nAtaca animais e deixa rastros estranhos. Os caçadores contam que, quando ouvem seu grito, é melhor voltar para casa.",
+      "semelhantes": [
+        4,
+        1,
+        10
+      ],
+      "imagem": "img/capelobo.svg"
+    },
+    {
+      "id": 36,
+      "nome": "Lenda da Mandioca",
+      "regiao": "Norte",
+      "emoji": "🌿",
+      "cor": "#1f9d6b",
+      "tipo": "Lenda de origem",
+      "origem": "Tupi",
+      "sinopse": "A menina Mani que deu origem à mandioca.",
+      "historia": "Mani era uma menina indígena de pele muito clara, que morreu cedo e foi enterrada dentro da própria oca.\n\nDa terra nasceu uma planta desconhecida, de raiz branca. O povo a chamou de mandioca, de “Mani-oca”, a casa de Mani.",
+      "semelhantes": [
+        33,
+        32,
+        19
+      ],
+      "imagem": "img/lenda-da-mandioca.svg"
+    },
+    {
+      "id": 37,
+      "nome": "Icamiabas",
+      "regiao": "Norte",
+      "emoji": "🏹",
+      "cor": "#1f9d6b",
+      "tipo": "Guerreiras míticas",
+      "origem": "Amazônia",
+      "sinopse": "Mulheres guerreiras que viviam sem homens na floresta.",
+      "historia": "As Icamiabas eram guerreiras que viviam sem homens, numa aldeia escondida da Amazônia. Uma vez por ano recebiam visitas de homens de outra aldeia.\n\nNesses encontros, davam de presente pedras verdes chamadas muiraquitãs, amuletos de sorte que, dizem, protegem quem os usa.",
+      "semelhantes": [
+        19,
+        3,
+        17
+      ],
+      "imagem": "img/icamiabas.svg"
+    },
+    {
+      "id": 38,
+      "nome": "Jaci, a Lua",
+      "regiao": "Norte",
+      "emoji": "🌕",
+      "cor": "#1f9d6b",
+      "tipo": "Divindade",
+      "origem": "Tupi",
+      "sinopse": "Divindade tupi da Lua, protetora dos apaixonados.",
+      "historia": "Na tradição tupi, Jaci é a Lua, que vigia as noites e acompanha os amantes. Também cuida das plantas e dos sonhos.\n\nCom Guaraci, o Sol, ela divide o céu. Muitas lendas indígenas começam com um pedido feito a ela.",
+      "semelhantes": [
+        37,
+        30,
+        19
+      ],
+      "imagem": "img/jaci-a-lua.svg"
+    },
+    {
+      "id": 39,
+      "nome": "Iemanjá",
+      "regiao": "Nordeste",
+      "emoji": "🐚",
+      "cor": "#e8892b",
+      "tipo": "Rainha do mar",
+      "origem": "Afro-brasileira (Bahia)",
+      "sinopse": "Orixá do mar, protetora de pescadores e mães.",
+      "historia": "Iemanjá é a rainha do mar nas religiões de matriz africana. Protege pescadores, jangadeiros e todas as mães.\n\nEm 2 de fevereiro, a Bahia faz festa em sua homenagem: milhares de pessoas jogam flores e presentes ao mar.",
+      "semelhantes": [
+        3,
+        2,
+        15
+      ],
+      "imagem": "img/iemanja.svg"
+    },
+    {
+      "id": 40,
+      "nome": "Cabra-Cabriola",
+      "regiao": "Nordeste",
+      "emoji": "🐐",
+      "cor": "#e8892b",
+      "tipo": "Bicho-papão",
+      "origem": "Nordeste",
+      "sinopse": "Cabra monstruosa que pega crianças malcriadas.",
+      "historia": "A Cabra-Cabriola era uma figura do medo infantil: uma cabra monstruosa, de chifres grandes, que rondava as casas à noite.\n\nAs mães usavam a história para que as crianças dormissem e não saíssem sozinhas depois do pôr do sol.",
+      "semelhantes": [
+        21,
+        23,
+        44
+      ],
+      "imagem": "img/cabra-cabriola.svg"
+    },
+    {
+      "id": 41,
+      "nome": "Padre sem Cabeça",
+      "regiao": "Nordeste",
+      "emoji": "⛪",
+      "cor": "#e8892b",
+      "tipo": "Assombração",
+      "origem": "Nordeste",
+      "sinopse": "Padre sem cabeça que anda pelas ruas antigas.",
+      "historia": "Em várias cidades nordestinas, conta-se que um padre sem cabeça aparece nas noites de lua, perto das igrejas e ruas antigas.\n\nDizem que ele carrega segredos de confissão. Quem o vê deve rezar e nunca seguir a sombra.",
+      "semelhantes": [
+        9,
+        45,
+        24
+      ],
+      "imagem": "img/padre-sem-cabeca.svg"
+    },
+    {
+      "id": 42,
+      "nome": "Dom Sebastião",
+      "regiao": "Nordeste",
+      "emoji": "👑",
+      "cor": "#e8892b",
+      "tipo": "Touro encantado",
+      "origem": "Maranhão",
+      "sinopse": "Rei desaparecido que vive encantado nos Lençóis Maranhenses.",
+      "historia": "Dom Sebastião foi um rei português que desapareceu numa batalha, em 1578. No Maranhão, contam que ele virou um touro negro, com uma estrela na testa.\n\nO touro vive encantado nos Lençóis Maranhenses, e o povo espera que um dia ele volte e desencante a ilha.",
+      "semelhantes": [
+        34,
+        25,
+        39
+      ],
+      "imagem": "img/dom-sebastiao.svg"
+    },
+    {
+      "id": 43,
+      "nome": "Boi da Cara Preta",
+      "regiao": "Nordeste",
+      "emoji": "🐃",
+      "cor": "#e8892b",
+      "tipo": "Bicho-papão",
+      "origem": "Nordeste",
+      "sinopse": "Boi que vem buscar criança que não quer dormir.",
+      "historia": "Conhecido por uma cantiga de ninar, o Boi da Cara Preta é um boi que aparece para pegar as crianças que não querem dormir.\n\nÉ um dos medos mais cantados no Brasil e funciona como brincadeira de mãe para filho.",
+      "semelhantes": [
+        44,
+        40,
+        21
+      ],
+      "imagem": "img/boi-da-cara-preta.svg"
+    },
+    {
+      "id": 44,
+      "nome": "Tutu-Marambá",
+      "regiao": "Nordeste",
+      "emoji": "👁️",
+      "cor": "#e8892b",
+      "tipo": "Bicho-papão",
+      "origem": "Nordeste",
+      "sinopse": "Monstro de olhos grandes que assusta crianças.",
+      "historia": "Tutu-Marambá é um bicho-papão de aparência incerta, com grandes olhos, que se esconde nos cantos escuros das casas.\n\nÉ lembrado em cantigas de ninar e serve para que as crianças aprendam a obedecer.",
+      "semelhantes": [
+        43,
+        23,
+        40
+      ],
+      "imagem": "img/tutu-maramba.svg"
+    },
+    {
+      "id": 45,
+      "nome": "Corpo-Seco",
+      "regiao": "Sudeste",
+      "emoji": "💀",
+      "cor": "#7a5af8",
+      "tipo": "Assombração",
+      "origem": "Interior de Minas e São Paulo",
+      "sinopse": "Alma tão má que a terra se recusa a receber.",
+      "historia": "Corpo-Seco é o espírito de uma pessoa tão má que a terra não quis receber seu corpo. Ele fica seco e vaga pelas estradas.\n\nCom o rosto cadavérico, assusta viajantes nas noites escuras do interior de Minas e de São Paulo.",
+      "semelhantes": [
+        9,
+        10,
+        41
+      ],
+      "imagem": "img/corpo-seco.svg"
+    },
+    {
+      "id": 46,
+      "nome": "Dama de Branco",
+      "regiao": "Sudeste",
+      "emoji": "🕊️",
+      "cor": "#7a5af8",
+      "tipo": "Lenda urbana",
+      "origem": "Estradas do Sudeste",
+      "sinopse": "Mulher de vestido branco que some na estrada.",
+      "historia": "Contam que uma mulher de vestido branco pede carona nas estradas do interior e desaparece dentro do carro.\n\nHá versões em que ela aparece em cemitérios e portões de igrejas. Muitos motoristas dizem ter visto.",
+      "semelhantes": [
+        27,
+        22,
+        24
+      ],
+      "imagem": "img/dama-de-branco.svg"
+    },
+    {
+      "id": 47,
+      "nome": "Naipi e Tarobá",
+      "regiao": "Sul",
+      "emoji": "💧",
+      "cor": "#2f7fd1",
+      "tipo": "Lenda de origem",
+      "origem": "Guarani (Paraná)",
+      "sinopse": "Casal que originou as Cataratas do Iguaçu.",
+      "historia": "Naipi era uma bela jovem prometida ao deus M’Boi. Ela fugiu de canoa com o guerreiro Tarobá, por quem se apaixonara.\n\nIrritado, o deus partiu o rio, criando as quedas das Cataratas do Iguaçu: Naipi virou rocha e Tarobá, uma palmeira à beira do abismo.",
+      "semelhantes": [
+        19,
+        3,
+        28
+      ],
+      "imagem": "img/naipi-e-taroba.svg"
+    },
+    {
+      "id": 48,
+      "nome": "Maria Degolada",
+      "regiao": "Sul",
+      "emoji": "🕯️",
+      "cor": "#2f7fd1",
+      "tipo": "Lenda urbana",
+      "origem": "Rio Grande do Sul",
+      "sinopse": "Jovem que virou santa popular no Sul.",
+      "historia": "Segundo a lenda gaúcha, Maria foi uma jovem assassinada de forma cruel, e depois passou a ser vista como santa popular.\n\nMuitas pessoas pedem graças em seu túmulo e deixam velas e flores como agradecimento.",
+      "semelhantes": [
+        46,
+        12,
+        22
+      ],
+      "imagem": "img/maria-degolada.svg"
+    },
+    {
+      "id": 49,
+      "nome": "Lenda da Erva-Mate",
+      "regiao": "Centro-Oeste",
+      "emoji": "🍃",
+      "cor": "#c9a227",
+      "tipo": "Lenda de origem",
+      "origem": "Guarani",
+      "sinopse": "Presente das divindades a quem acolheu estranhos.",
+      "historia": "A lenda guarani conta que a Lua e a Nuvem, em forma humana, visitaram um velho que vivia com a filha.\n\nComo foram bem recebidos, deram ao casal a erva-mate, para que ficassem sempre fortes. Daí nasce o hábito de beber chimarrão e tereré.",
+      "semelhantes": [
+        32,
+        33,
+        18
+      ],
+      "imagem": "img/lenda-da-erva-mate.svg"
+    },
+    {
+      "id": 50,
+      "nome": "Tupã",
+      "regiao": "Centro-Oeste",
+      "emoji": "⚡",
+      "cor": "#c9a227",
+      "tipo": "Divindade",
+      "origem": "Tupi-guarani",
+      "sinopse": "Divindade tupi-guarani do trovão.",
+      "historia": "Para os tupi-guaranis, Tupã é a força divina que se anuncia no trovão. É ele quem manda a chuva e protege a vida.\n\nQuando o trovão ronca, muitos contam que Tupã está falando com o povo.",
+      "semelhantes": [
+        38,
+        18,
+        15
+      ],
+      "imagem": "img/tupa.svg"
+    }
+  ]
+}
